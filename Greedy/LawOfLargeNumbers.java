@@ -45,6 +45,10 @@ public class LawOfLargeNumbers {
 		//그러므로 M%K 나머지만큼만 곱하면됨
 		System.out.println(result);
 		
+		//다른 횟수 아이디어
+		//M을 K+1로 나누는 이유는 제일 큰수를 K번 곱하고 두번째큰수를 1번 곱하는 수열의 길이가 K+1
+		//int count = (M/(K+1))*K + M%(K+1); //제일 큰 수를 곱할 횟수
+		//두번째로 큰 수를 곱할 횟수는 M-count
 		
 	}
 }
